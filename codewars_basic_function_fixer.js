@@ -4,7 +4,6 @@ I created this function to add five to any number that was passed in to it and r
 Can you help me fix the function?
 */
 
-efunction addFive(num) {
-  var total = num + 5
-  return num
+const addFive = (num) => {
+  return num + 5;
 }
